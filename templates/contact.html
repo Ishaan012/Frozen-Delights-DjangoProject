@@ -2,4 +2,67 @@
 {% block title %}Contact{% endblock title %}
 {% block body %}
 
+<!-- <div class="container">
+    <h1 class="text-center my-5">Contact Us</h1>
+</div> -->
+
+<div class="contact-section">
+    <div class="social-media-contact-section">
+        <div class="contact-heading">
+            <h3 class="mb-5">Contact Information</h3>
+            <p>
+                Fill this form and out team will contact you within 24 hours. We are
+                open for any queries and suggestions.
+            </p>
+        </div>
+
+        <div class="contact-icons">
+            <div class="icon-elements">
+                <i class="fa-solid fa-phone"></i> +91 85270XXXXX
+            </div>
+            <div class="icon-elements">
+                <i class="fa-regular fa-envelope"></i> samplexyz@gmail.com
+            </div>
+            <div class="icon-elements">
+                <i class="fa-solid fa-location-dot"></i> Block-4,House No.52, New Delhi,
+                India
+            </div>
+        </div>
+    </div>
+
+    <div class="details-section">
+        <img src="/images/img4.jpg" alt="" class="details-img" />
+        <form action="/contact" method="post" autocomplete="off">
+            {% csrf_token %}
+            <div class="form-group-details">
+                <div class="form-item">
+                    <label for="text">First Name</label>
+                    <input type="text" name="firstName" class="title form-control auto my-2" placeholder="Enter First Name" /><br />
+                </div>
+                <div class="form-item">
+                    <label for="text">Last Name</label>
+                    <input type="text" name="lastName" class="title form-control auto my-2" placeholder="Enter Last Name" /><br />
+                </div>
+                <div class="form-item">
+                    <label for="text">E-mail</label>
+                    <input type="text" name="email" class="title form-control auto my-2"
+                        placeholder="Enter e-mail" /><br />
+                </div>
+                <div class="form-item">
+                    <label for="text">Phone No.</label>
+                    <input type="text" name="phoneNo" class="title form-control auto my-2" placeholder="Enter Phone Number" /><br />
+                </div>
+                <div class="form-item">
+                    <label>Message</label>
+                    <textarea name="message" class="form-control my-2" cols="90" rows="8"
+                        placeholder="Type your message here."></textarea>
+                </div>
+            </div>
+            <div class="submit-button">
+                <button type="submit" class="btn btn-outline-success">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
 {% endblock body %}
