@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+
+<div class="container-fluid px-0">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img src="https://wallpaperaccess.com/full/1279331.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/1644934.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaperaccess.com/full/1644966.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container my-3">
+    <h1 class="my-5 text-center">Select from our range of ice creams available</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://www.archanaskitchen.com/images/archanaskitchen/Indian_Sweets_Mithai/Kesar_Pista_Kulfi_Recipe_Indian_Ice_Cream-1-2_400.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Kulfi</h5>
+                    <p class="card-text">Kulfi is a traditional Indian dessert made from milk, sugar, nuts, and fruit.
+                        It's infused with rich flavors and spices like saffron, cardamom, and rosewater</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2017/03/Pictures_BBB-162_Fro-Yo_96.jpg    "
+                    alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Frozen Yogurt</h5>
+                    <p class="card-text">Frozen yogurt is a frozen dessert made with yogurt and sometimes other dairy
+                        and non-dairy products. It has the same basic ingredients as ice cream, but contains live
+                        bacterial cultures.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://www.talentigelato.com/sk-eu/content/dam/brands/talenti/global_use/58882974-16--gelato-pint-caramel-images.png"
+                    alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Gelato</h5>
+                    <p class="card-text">Gelato is made from whole milk, sugar, sometimes eggs, and natural flavourings.
+                        Gelato typically contains 7–8% fat, less than ice cream's minimum of 10%.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://veenaazmanov.com/wp-content/uploads/2017/07/Homemade-Chocolate-Ice-Cream-3-500x500.jpg"
+                    alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Ice Cream</h5>
+                    <p class="card-text">Ice cream is a frozen dairy dessert made of milk or cream, ice, and sugar.
+                        Flavoring syrups or powders can be added to the mix to create different flavor</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://cdn.shopify.com/s/files/1/1921/3233/articles/SUNCORE_FOODS_BUTTERFLY_PEA_FLOWER_MOCHI_ROLLS.jpg?v=1672856787"
+                    alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Mochi</h5>
+                    <p class="card-text">Mochi ice cream is a cold, refreshing version of the traditional mochi.
+                        This Japanese dessert features creamy ice cream coated with sweet pounded glutinous rice dough.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col my-4">
+            <div class="card shadow-sm">
+                <img src="https://image.hurimg.com/i/hurriyet/75/750x422/5efd0a7c45d2a04258b6e4af.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="text-center">Dondurma</h5>
+                    <p class="card-text">The Turkish ice cream, called "dondurma" in Turkey, is made from goat milk,
+                        sugar and powder from the tubers of wild orchids, salep.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}
